@@ -13,10 +13,8 @@
   margin-bottom: 8px;
 }
 
-a:hover { color: black; }
-a:visited { color:black; }
-
 .term a {
+  color: black;
   display: block;
   text-decoration: none;
 }
@@ -25,3 +23,6 @@ a:visited { color:black; }
   background: url("./images/box.png") no-repeat;
   padding-left: 20px;
 }
+
+a:hover { color: black; }
+a:visited { color:black; }
