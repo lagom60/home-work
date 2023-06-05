@@ -1,7 +1,8 @@
-.term{
+.term {
   padding: 0;
   list-style: none;
   line-height: 25px;
+  cursor: pointer;
 }
 
 .term li {
@@ -13,7 +14,11 @@
   margin-bottom: 8px;
 }
 
-.icon{
+a:hover { color: black; }
+a:visited { color:black; }
+
+.icon {
   background: url("./images/box.png") no-repeat;
   padding-left: 20px;
+  text-decoration: none;
 }

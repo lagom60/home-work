@@ -22,7 +22,6 @@
 }
 
 .tit{
-  margin-bottom: 4px;
   color: #296897;
  }
  
@@ -32,12 +31,12 @@
 
 .confir{
   display: flow-root;
-  padding-bottom: 16px;
 }
 
 .confir .img{
   float: left;
   padding-right: 16px;
+  padding-bottom: 16px;
 }
 
 .consec{
