@@ -1,0 +1,51 @@
+*{
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.vailidation{
+  box-sizing: border-box;
+  width: 250px;
+  height: 260px;
+  background: linear-gradient(180deg, #CCC 0%, #EEE 100%);
+  border: 1px solid #a3a3a3 ;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.header{
+  padding-top: 8px;
+  font-size: 16px;
+  width: 12.75rem;
+  height: 2.75rem;
+}
+
+.tit{
+  margin-bottom: 4px;
+  color: #296897;
+ }
+ 
+ .txt{
+   font-weight: 400;
+ }
+
+.confir{
+  display: flow-root;
+  padding-bottom: 16px;
+}
+
+.confir .img{
+  float: left;
+  padding-right: 16px;
+}
+
+.consec{
+  display: flow-root;
+}
+
+.consec .img{
+  float: right;
+  padding-left: 16px;
+}
+

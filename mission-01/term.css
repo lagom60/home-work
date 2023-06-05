@@ -1,0 +1,19 @@
+.term{
+  padding: 0;
+  list-style: none;
+  line-height: 25px;
+}
+
+.term li {
+  width: 218px;
+  height: 22px;
+  padding: 8px 16px;
+  background-color: #ccc;
+  border-radius: 34px;
+  margin-bottom: 8px;
+}
+
+.icon{
+  background: url("./images/box.png") no-repeat;
+  padding-left: 20px;
+}
