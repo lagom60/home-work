@@ -2,7 +2,6 @@
   padding: 0;
   list-style: none;
   line-height: 25px;
-  cursor: pointer;
 }
 
 .term li {
@@ -17,8 +16,12 @@
 a:hover { color: black; }
 a:visited { color:black; }
 
+.term a {
+  display: block;
+  text-decoration: none;
+}
+
 .icon {
   background: url("./images/box.png") no-repeat;
   padding-left: 20px;
-  text-decoration: none;
 }
