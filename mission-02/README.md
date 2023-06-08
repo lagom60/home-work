@@ -23,7 +23,7 @@
   2. 회원가입 및 비밀번호 찾기는 다른 페이지로 연결하기 위해 a태그 사용.
   3. 접근성을 위해 i 태그 안에 aria-label을 넣음.
 
-  -CSS:
+- CSS:
     1. .login_apend(ul) 태그에 전체적인 배경 및 폰트 스타일 지정
     2. .login_apend li 태그에 inline-block을 지정해 한 줄로 배치함.
     3. li:first-child 첫 번째 li 태그에 margin-right를 주어
