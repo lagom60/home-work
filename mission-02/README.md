@@ -1,6 +1,6 @@
 # Mission-02
 로그인 폼 완성
-![Login](../mission-01/images/mission-02_complete.png)
+(../mission-01/images/mission-02_complete.png)
 
 ## Login Form
 - Markup:
