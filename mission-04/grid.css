@@ -3,8 +3,9 @@
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+  vertical-align: top;
+  list-style: none;
+  box-sizing: border-box;
 }
 
 a {
@@ -12,3 +13,71 @@ a {
   color: inherit;
 }
 
+.news {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  gap: 12px;
+  margin: 20px auto;
+  width: 380px;
+  height: 200px;
+  grid-template-areas:
+    "title title . . . . . . . . plus plus"
+    "line line line line line line line line line line line line"
+    "img img img img contents contents contents contents contents contents contents contents";
+}
+
+.news-title {
+  grid-area: title;
+  color: #ed552f;
+}
+
+.news-plus {
+  grid-area: plus;
+  width: 57px;
+}
+
+.news-plus i {
+  color: #447231;
+}
+
+.news-plus a img {
+  width: 16px;
+  height: 16px;
+}
+
+.news-line {
+  grid-area: line;
+  width: 266px;
+  height: 1px;
+  background: linear-gradient(90deg, #a9a9a9 -1.32%, #ffffff 100%);
+}
+
+.news-w3c {
+  grid-area: img;
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.news-w3c img {
+  box-shadow: 0px 15px 15px 3px #aaa;
+}
+
+.news-w3c figcaption {
+  margin-top: 16px;
+}
+
+.news-contents {
+  grid-area: contents;
+  margin-top: 12px;
+}
+
+.news-contents li:nth-child(2) {
+  margin-top: 4px;
+}
+
+.news-contents li:last-child {
+  text-align: justify;
+  margin-top: 12px;
+}
