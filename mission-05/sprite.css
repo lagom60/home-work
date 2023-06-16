@@ -46,9 +46,9 @@ a {
   width: 200px;
   height: 158px;
   padding: 12px;
-  background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);
+  background: linear-gradient(180deg, #CCC 0%, #EEE 100%);
   border: 1px solid #A3A3A3;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 .sprite__title {
@@ -76,8 +76,8 @@ a {
   margin-top: -0.16em;
   background: #a3a3a3;
   color: #fff;
-  padding: 0.1em 0.4em;
-  border-radius: 5px;
+  padding: 0.08em 0.42em;
+  border-radius: 4px;
   font-size: 14px;
 }
 
@@ -90,15 +90,15 @@ a {
 }
 
 .spriteUp {
-  background-position: 2px 2px;
+  background-position: 6px 2px;
 }
 
 .spriteDown {
-  background-position: 2px -41px;
+  background-position: 6px -41px;
 }
 
 .spriteOff {
-  background-position: 2px -19px;
+  background-position: 6px -19px;
 }
 
 
