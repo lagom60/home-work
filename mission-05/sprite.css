@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  vertical-align: top;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*
+.sprite {
+  background: url(./../images/sprite_main.png) no-repeat;
+  padding-left: 4.0625rem;
+  height: 3.75rem;
+
+.spriteBook {
+  background-position: 0 0;
+}
+
+.spriteNews {
+  background-position: 0 -230px;
+}
+
+.spriteBoard {
+  background-position: 0 -115px;
+}
+
+.spriteFavorite {
+  background-position: 0 -345px;
+}
+
+.spriteTwitter {
+  background-position: 0 -460px;
+} 
+*/
+
+/* 공통 게시판 */
+.section {
+  position: relative;
+  width: 200px;
+  height: 158px;
+  padding: 12px;
+  background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+}
+
+.sprite__title {
+  font-size: 16px;
+  height: 2.6rem;
+}
+
+.sprite__title span {
+  font-size: 16px;
+  color: #ed552f;
+}
+
+.sprite__list {
+  padding-left: 24px;
+}
+
+.sprite__item {
+  margin-bottom: 8px;
+}
+
+.sprite__number::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  margin-left: -1.8em;
+  margin-top: -0.16em;
+  background: #a3a3a3;
+  color: #fff;
+  padding: 0.1em 0.4em;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.sprite {
+  background: url(./rank.png) no-repeat;
+  position: absolute;
+  right: 12px;;
+  width: 16px;
+  height: 16px;
+  background-position: 0 -41px;
+}
+
+.sprite.sprite1 {
+  background-position: 2 2px;
+}
+
+.sprite.sprite2 {
+  background-position: 2 -41px;
+}
+
+.sprite.sprite3 {
+  background-position: 2 -19px;
+}
+
+.sprite.sprite4 {
+  background-position: 2 2px;
+}
+
+
+
+.sprite__more {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.sprite__more span {
+  color: #447231;
+}
