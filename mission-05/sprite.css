@@ -84,21 +84,21 @@ a {
 .sprite {
   background: url(./rank.png) no-repeat;
   position: absolute;
-  right: 12px;;
+  right: 12px;
   width: 16px;
   height: 16px;
 }
 
 .spriteUp {
-  background-position: 2 2px;
+  background-position: 2px 2px;
 }
 
 .spriteDown {
-  background-position: 2 -41px;
+  background-position: 2px -41px;
 }
 
 .spriteOff {
-  background-position: 2 -19px;
+  background-position: 2px -19px;
 }
 
 
