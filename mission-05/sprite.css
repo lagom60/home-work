@@ -13,34 +13,6 @@ a {
   color: inherit;
 }
 
-/*
-.sprite {
-  background: url(./../images/sprite_main.png) no-repeat;
-  padding-left: 4.0625rem;
-  height: 3.75rem;
-
-.spriteBook {
-  background-position: 0 0;
-}
-
-.spriteNews {
-  background-position: 0 -230px;
-}
-
-.spriteBoard {
-  background-position: 0 -115px;
-}
-
-.spriteFavorite {
-  background-position: 0 -345px;
-}
-
-.spriteTwitter {
-  background-position: 0 -460px;
-} 
-*/
-
-/* 공통 게시판 */
 .section {
   position: relative;
   width: 200px;
