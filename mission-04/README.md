@@ -21,3 +21,4 @@ grid-template-areas:
     "line line line line line line line line line line line line"
     "img img img img contents contents contents contents contents contents contents contents";
 ```
+
