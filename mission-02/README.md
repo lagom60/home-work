@@ -28,3 +28,4 @@
     2. .login_apend li 태그에 inline-block을 지정해 한 줄로 배치함.
     3. li:first-child 첫 번째 li 태그에 margin-right를 주어
         회원가입/비밀번호 찾기 사이에 간격을 띄움.
+
